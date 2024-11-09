@@ -1,1 +1,0 @@
-# gruzchiki-moskow

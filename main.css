@@ -235,6 +235,11 @@
         font-size: 16px;
     }
 }
+@media (max-width: 400px) {
+    .icon {
+        width: 85%;
+    }
+}
 @media (max-width: 333px) {
     .white-box {
         width: 15%;

@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let menu_burger = document.getElementById('menu_burger');
     let close = document.getElementById('close');
     let menu_onas = document.getElementById('menu_onas');
+    let menu_yslygi = document.getElementById('menu_yslygi');
+    let menu_svias = document.getElementById('menu_svias');
 
     burger.onclick = function () {
         menu_burger.style.animationName ='ex'
@@ -14,6 +16,14 @@ document.addEventListener('DOMContentLoaded', function() {
         menu_burger.style.left = '800px'
     }
     menu_onas.onclick = function () {
+        menu_burger.style.animationName = 'close'
+        menu_burger.style.left = '800px'
+    }
+    menu_yslygi.onclick = function () {
+        menu_burger.style.animationName = 'close'
+        menu_burger.style.left = '800px'
+    }
+    menu_svias.onclick = function () {
         menu_burger.style.animationName = 'close'
         menu_burger.style.left = '800px'
     }
